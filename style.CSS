@@ -1,0 +1,323 @@
+@font-face {
+    font-family: family1;
+    src: url(font/DancingScript-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0px;
+    background-image: linear-gradient(90deg, #08223b 30%, #050c16 90%);
+}
+
+header {
+    width: 100%;
+    height: 720px
+}
+
+nav a:hover {
+    background-color: #2082de;
+    border-radius: 15px;
+    margin: 25px 25px;
+    transition: all .50s ease-in-out;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffff;
+    transition-delay: 1s;
+    transition: all .50s ease-out;
+}
+
+#aLogo {
+    position: absolute;
+    font-size: 35px;
+    color: #ffff;
+    display: inline;
+    left: 60px;
+    text-shadow: 5px 6px 10px, -5px -6px 10px;
+}
+
+#Logo {
+    color: #2082de;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    justify-content: flex-end;
+}
+
+.navilnk {
+    margin: 15px;
+}
+
+.img {
+    float: left;
+    box-shadow: -8px -6px 10px, 8px 6px 10px;
+    transform: translate(10px, 50px);
+    background-image: url(img/empty-dark-concrete-wall-room-studio-background-floor-perspective-with-blue-soft-light-displays.jpg);
+    background-position: center;
+    border-radius: 50px;
+}
+
+#name {
+    display: inline;
+    background-color: #0d3e6f;
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+    box-shadow: 3px 5px 9px #0d3e6f, -3px -5px 9px #0d3e6f;
+}
+
+header #line1 {
+    color: white;
+}
+
+header #line2 {
+    color: #2082de;
+}
+
+#headerspan {
+    color: #fff;
+}
+
+header #p {
+    color: white;
+    font-size: 22px;
+}
+
+#all {
+    position: absolute;
+    left: 9%;
+    top: 10%;
+    width: 90%;
+}
+
+#text {
+    position: absolute;
+    top: 25%;
+    left: 52%;
+}
+
+#Btm {
+    color: white;
+    background-color: #2082de;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.ai {
+    padding: 10px;
+}
+
+/* -----------------*/
+.section1 {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.section1 .img1 {
+    width: 120px;
+}
+
+#about {
+    position: absolute;
+    display: inline;
+    background-color: #0b3e6c;
+    left: 30px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 6px 2px 10px #2082de, -6px -2px 10px #2082de;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.section1 #h1 {
+    position: absolute;
+    left: 30px;
+    top: 90px;
+    color: white;
+    font-size: 50px;
+    margin: 0px 0px 0px 30px;
+}
+
+.section1 #div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transform: translate(0px, 150%);
+
+}
+
+.section1 h1 {
+    color: white;
+    margin: 10px 0px 0px 15px;
+    padding: 10px;
+}
+
+#last {
+    position: absolute;
+    bottom: 29px;
+    margin: 10px 0px 0px 30px;
+    padding: 8px;
+    font-size: 22px;
+    color: white;
+    font-family: family1;
+}
+
+#last::selection {
+    color: #050c16;
+    background-color: lawngreen;
+}
+
+/*----------------*/
+.section2 {
+    position: relative;
+    margin: 30px 0px 0px 0px;
+    width: 100%;
+    height: 700px;
+}
+
+#project {
+    position: absolute;
+    display: inline;
+    background-color: #0b3e6c;
+    left: 30px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 6px 2px 10px #2082de, -6px -2px 10px #2082de;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.section2 #h1 {
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    color: white;
+    font-size: 50px;
+}
+
+#section2div {
+    display: flex;
+    position: absolute;
+    right: 30%;
+    bottom: 40%;
+}
+
+#section2div img {
+    border-radius: 20px;
+    box-shadow: 10px 5px 30px #2082de, -10px -5px 30px #2082de;
+}
+
+#inner1,
+#inner2 {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    transform: translate(190px, 50%);
+}
+
+#section2div button {
+    padding: 15px 30px;
+    transform: translate(50%, 50px);
+    font-size: 25px;
+    background-color: #0b3e6c;
+    color: white;
+    border-style: none;
+    box-shadow: 10px 5px 30px #2082de, -10px -5px 30px #2082de;
+    font-family: family1;
+    cursor: pointer;
+    border-radius: 70px;
+}
+
+#section2div button:hover {
+    box-shadow: 10px 5px 30px #de2525, -10px -5px 30px #d73219;
+}
+
+#section3 {
+    position: relative;
+    margin: 30px 0px 0px 0px;
+    width: 100%;
+    height: 700px;
+}
+
+#section3 #One {
+    margin: 0px 20%;
+    padding: 10px 15px;
+    width: 60%;
+    height: 100px;
+    background-color: #04284a;
+    color: white;
+}
+
+#section3 #Two {
+    float: left;
+    color: white;
+    font-weight: 700;
+    margin: 20px 70px;
+}
+
+#section3 #Three {
+    margin: 60px 0px 0px 30%;
+}
+
+#Fname,
+#Email,
+#Student,
+#textarea {
+    background-color: #102a43;
+    border-style: none;
+    border-radius: 5px;
+
+}
+
+#Fname,
+#Email {
+    margin: 5px 15px 20px 0px;
+    padding: 10px 170px 10px 5px;
+}
+
+#Student {
+    padding: 10px 50% 10px 5px;
+    margin: 5px 30px 20px 0px;
+}
+
+#formButton {
+    background-color: #0788ff;
+    padding: 20px 30%;
+    margin: 30px 0px 0px 0px;
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+
+footer h1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 35%;
+    font-family: family1;
+}
+
+footer:hover {
+    background-color: black;
+}
+footer h1::selection{
+    background-color: red;
+
+}
